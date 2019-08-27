@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Task } from "./task";
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 import { Status } from './status';
+
 @Component({
 selector: 'app-taskdisplay1',
 templateUrl: './taskdisplay1.component.html',
