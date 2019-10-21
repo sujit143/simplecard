@@ -15,6 +15,9 @@ import { MatListModule } from '@angular/material/list';
 import { MenuComponent } from './menu/menu.component';
 import { routing } from './app.routing';
 import { HomeComponent } from './home/home.component';
+import { Home2Component } from './home2/home2.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -26,7 +29,9 @@ import { HomeComponent } from './home/home.component';
 
     MenuComponent,
 
-    HomeComponent
+    HomeComponent,
+
+    Home2Component
 
 
 
@@ -42,7 +47,9 @@ import { HomeComponent } from './home/home.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    routing
+    routing,
+    MatDatepickerModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
